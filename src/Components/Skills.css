@@ -1,0 +1,36 @@
+#skills{
+    height: auto;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    padding:0 3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skillTitle{
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.skillDesc{
+    margin-top: 1rem;
+    padding: .75rem 4rem;
+}
+.skillImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.skillImg{
+    height: 10rem;
+    width: auto;
+    object-fit: cover;
+    margin: 0.5rem;
+}

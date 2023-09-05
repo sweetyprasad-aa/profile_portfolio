@@ -1,0 +1,59 @@
+#about {
+    width: 100vw;
+    height: auto;
+    /* max-width: 65rem; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 4rem; */
+
+
+}
+
+.aboutTitle {
+    font-size: large;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+
+.aboutDesc {
+    font-size: large;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding:.75rem 7rem;
+}
+
+.aboutBars {
+    height: auto;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* padding:0 1rem; */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBarimg {
+    height: 4rem;
+    width: auto
+}
+
+.aboutbar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    /* border: 1px solid white; */
+    background-color: rgba(30, 35, 40, 0.9);
+    padding: 1rem;
+    width: 60vw;
+    box-shadow: 1px 2px 3px;
+}
+
+.aboutBarText {
+    /* font-size: .65rem; */
+    padding: 0 1rem;
+    line-height: 1.5;
+}
